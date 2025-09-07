@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Stripe Pricing Test</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #f9f9f9;
+      text-align: center;
+      padding: 50px;
+    }
+    h1 {
+      color: #333;
+    }
+    p {
+      color: #555;
+    }
+  </style>
+</head>
+<body>
+  <h1>Upgrade to Premium</h1>
+  <p>Select a plan below:</p>
+
+  <script async src="https://js.stripe.com/v3/pricing-table.js"></script>
+  <stripe-pricing-table
+    pricing-table-id="prctbl_1S4FoI1XlsSTEaa9Xa8LAnIK"
+    publishable-key="pk_test_51S3cea1XlsSTEaa9zu10zIjcwOsdfEN5PYP7EA9AKwFuoIACbPUSfJCIJhAgvRoTnGqP0mRlOYSlqveFHQuXhG6I00gFu6TNbX">
+  </stripe-pricing-table>
+</body>
+</html>
